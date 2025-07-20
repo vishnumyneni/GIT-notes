@@ -1,0 +1,5 @@
+Editing author for a commit
+git rebase -i HEAD~3 (If it's first commit skip)
+git commit --amend --author="New Name <newemail@example.com>" --no-edit
+git push --force
+
